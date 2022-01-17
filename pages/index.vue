@@ -1,3 +1,5 @@
+// eslint-disable-next-line unicorn/escape-case // eslint-disable-next-line
+unicorn/error-message
 <template>
   <div class="home">
     <!-- Hero -->
@@ -60,6 +62,7 @@ export default {
       result.data.results.forEach((movie) => {
         this.movies.push(movie);
       });
+
       // eslint-disable-next-line no-console
       console.log(this.movies);
     },
